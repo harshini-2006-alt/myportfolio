@@ -1,0 +1,147 @@
+/* My First CSS File! */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lightblue;
+    color: black;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 2px solid gray;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 24px;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: darkgreen;
+    font-size: 20px;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+
+table {
+    width: 100%;
+    margin: 15px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+ul {
+    background-color: lightyellow;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+form {
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+footer a {
+    color: yellow;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
